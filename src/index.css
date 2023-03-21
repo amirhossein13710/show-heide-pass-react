@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0f0067;
+    outline: none;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-fields{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 15px;
+}
+.input-fields input{
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+.input-fields span{
+    color: rgb(138, 143, 143);
+    font-size: 20px;
+    cursor: pointer;
+}
